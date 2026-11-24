@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ms"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Senarai Nama Pelajar yang telah mengisi borang Penilaian Pengajaran Pensyarah</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#1b1f27;--mu:#667085;--bd:#e3e6ec;--ac:#1d5fd1;--acb:#e8f0fd;--acx:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171c;--card:#1d2128;--tx:#e8eaee;--mu:#98a1b0;--bd:#2d333d;--ac:#6ea1ff;--acb:#22304a;--acx:#10141a}}
+:root[data-theme="dark"]{--bg:#14171c;--card:#1d2128;--tx:#e8eaee;--mu:#98a1b0;--bd:#2d333d;--ac:#6ea1ff;--acb:#22304a;--acx:#10141a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:1100px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.35rem;margin:0 0 2px}.sub{color:var(--mu);margin:0 0 18px;font-size:.9rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:16px}
+.st{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px 14px}
+.st b{display:block;font-size:1.5rem;color:var(--ac)}.st span{color:var(--mu);font-size:.8rem}
+.lbl{font-size:.75rem;color:var(--mu);text-transform:uppercase;letter-spacing:.04em;margin:0 0 6px}
+.cls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.cls button{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:10px;padding:8px 18px;font:inherit;font-weight:600;cursor:pointer;min-width:84px}
+.cls button small{display:block;font-weight:400;color:var(--mu);font-size:.72rem}
+.cls button.on{background:var(--ac);border-color:var(--ac);color:var(--acx)}.cls button.on small{color:var(--acx);opacity:.85}
+.fl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:12px}
+select,input{width:100%;padding:8px 10px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:inherit}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px;color:var(--mu);font-size:.85rem}
+.bar .sp{flex:1}.bar button{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:8px;padding:5px 12px;font:inherit;cursor:pointer}
+.lec{margin:22px 0 8px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-weight:700}
+.lec span{font-weight:400;color:var(--mu);font-size:.85rem}
+details{background:var(--card);border:1px solid var(--bd);border-radius:10px;margin-bottom:8px}
+summary{cursor:pointer;padding:10px 14px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+summary .cd{font-weight:700;color:var(--ac)}
+.pill{background:var(--acb);color:var(--ac);border-radius:99px;padding:1px 10px;font-size:.8rem;font-weight:600;white-space:nowrap}
+.tb{overflow-x:auto;border-top:1px solid var(--bd)}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th,td{text-align:left;padding:6px 14px;border-bottom:1px solid var(--bd)}th{color:var(--mu);font-weight:600;font-size:.76rem}
+tr:last-child td{border-bottom:0}td:first-child,th:first-child{width:48px;color:var(--mu)}
+.em{text-align:center;color:var(--mu);padding:40px 0}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px;margin-bottom:16px}
+.cc{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px 14px}
+.cc h3{margin:0 0 10px;font-size:.9rem}
+.dn{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.dn svg{width:130px;height:130px;flex:none}
+.ct{fill:var(--tx);font-size:20px;font-weight:700}
+.dn ul{list-style:none;margin:0;padding:0;font-size:.82rem;flex:1;min-width:130px}
+.dn li{display:flex;align-items:center;gap:6px;margin:3px 0}.dn li b{margin-left:auto}.dn li span{color:var(--mu);width:34px;text-align:right}
+.dn i{width:10px;height:10px;border-radius:2px;flex:none}
+.br{display:grid;grid-template-columns:minmax(100px,42%) 1fr 30px;gap:8px;align-items:center;font-size:.78rem;margin:6px 0}
+.bl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bt{background:var(--bd);border-radius:4px;height:12px;display:block;overflow:hidden}.bt span{display:block;height:100%;border-radius:4px}
+.br b{text-align:right}
+label{display:block;font-size:.75rem;color:var(--mu);font-weight:600}label select{margin-top:3px;font-weight:400}
+@media print{.cls,.fl,.bar button{display:none}details{break-inside:avoid}}
+</style></head><body><div class="w">
+<h1>Senarai Nama Pelajar yang telah mengisi borang Penilaian Pengajaran Pensyarah</h1>
+<p class="sub">Penilaian Pengajaran Pensyarah · Sesi Ogos–Disember 2026</p>
+<div class="stats"><div class="st"><b id="s1">0</b><span>Rekod pelajar</span></div><div class="st"><b id="s2">0</b><span>Pensyarah</span></div><div class="st"><b id="s3">0</b><span>Kursus</span></div></div>
+<div class="fl"><label>Nama Pensyarah<select id="fl"></select></label><label>Kursus<select id="fc"></select></label><label>Semester<select id="fs"></select></label></div>
+<div class="charts"><div class="cc" id="c3"></div><div class="cc" id="c4"></div></div>
+<div class="bar"><span id="cnt"></span><span class="sp"></span><button id="bo">Buka semua</button><button id="bc">Tutup semua</button><button id="bx">Muat turun CSV</button><button id="bp">Cetak</button></div>
+<div id="out"></div></div>
+<script>
+const D={"l":["AYUSHAFIZA BINTI ZULKIFLY","EMYLIA BINTI ABDUL LATIB","HASMAH BINTI SETIA","HAZLINA BT MOHD KASIM","MOHD HANIEZ BIN MD AKHAIR","MUHAMMAD IZZUDDIN BIN JOHARI","NOORHISYAM BIN RAZALI","NOR RUDZIAH BINTI ABDUL AZIZ","NORASHIKIN BINTI MHD YATIM","SYARIFAH NOOR RASHIDAH BT SYED NAJMUDDIN"],"c":["DML10012 - Mandarin 1","DUA20092 - Penghayatan Etika Dan Peradaban","DUB40102 - Start-Up Enterprise","DUE10031 - English For Social Communication","DUE10092 - English For Communication","DUE20082 - English For Career Development","DUE40020 - English For Career Development","DUM10082 - Engineering Mathematics 1","DUM10122 - Engineering Mathematics 1","DUM20132 - Engineering Mathematics 2","DUM30162 - Mathematics for Electrical Engineering "],"r":[["BALQIS AZ ZAHRAA’ BINTI AHMAD SAH","1","A",5,0],["MUHAMAD AZAMUDDIN","1","A",5,0],["MUHAMMAD ADAM BIN AHMAD TARMIZI","1","A",5,0],["MUHAMMAD DANIAL BIN BADRUL HISHAM ","1","A",5,0],["MUHAMMAD IKHWAN BIN ABDUL HALIM","1","A",5,0],["MUHAMMAD RAYYAN NAUFAL BIN MOHD RAIF ","1","A",5,0],["MUHAMMAD SYUKRI IRFAN BIN SAIMIN ","1","A",5,0],["NUR 'ARIIQAH 'ADAWIYYAH BINTI AHMAD ","1","A",5,0],["NURUL SAFIY BATRISYIA BINTI MAT NAZER ","1","A",5,0],["RAUDHAH BINTI KAMAL ","1","A",5,0],["ADAM HADZIQ BIN ADNAN","1","B",5,0],["AFRIELL IZZAT BIN SUMANTRIE","1","B",5,0],["ARIF HAKIMI BIN MOHD FAIZUL","1","B",5,0],["ARRIASHA QISTINA BINTI SHUHAIZAN ","1","B",5,0],["DANIYAL IRFAN AZANIZAM","1","B",5,0],["FIRDAUS ADAM BIN SHAH RIZAN","1","B",5,0],["MOHAMAS ALI HAZIMI BIN MOHAMMAD AZMI","1","B",5,0],["MUHAMMAD ABRAR ABSYAR BIN MOHD HIZWAN ","1","B",5,0],["MUHAMMAD AMIRUL AMZAR BIN JEFRI ","1","B",5,0],["MUHAMMAD AMMAR HANIF BIN MUHAMMAD NAZRY ","1","B",5,0],["MUHAMMAD JIEBREIL IEMAN BIN JALALUDIN","1","B",5,0],["NUR ILHAM BATRISYIA BINTI ABD GHANI","1","B",5,0],["RANIA BATRISYIA BINTI RADZALEIGH @ GHAZALI ","1","B",5,0],["WAN MUHAMMAD 'AMMAR BIN WAN MOHD ZAMZAM","1","B",5,0],["WAN MUHAMMAD 'AMMAR BIN WAN MOHD ZAMZAM","1","B",5,0],["ADAM IMAN BIN AMINUDDIN","1","C",9,0],["AIMI NABILAH BINTI JULASNARY","1","C",9,0],["DARWISH AMANI BIN SHAMSUL FARIZ","1","C",9,0],["HAIMAN IRFAN BIN ZAHARYUDIN","1","C",9,0],["HANISAH AMANI BINTI MOHAMMAD NOOR SABIRIN","1","C",9,0],["MADIHAH HUSNA BINTI MOHAIR NIZAM","1","C",9,0],["MUHAMMAD HAFIZIE BIN ROSLAN ","1","C",9,0],["MUHAMMAD IQBAL DANISH BIN FAIROS AZMI ","1","C",9,0],["MUHAMMAD IRFAN BIN BASARUDIN","1","C",9,0],["NUR ATIQAH FATIHAH BINTI MOHAMAD ZAMRY ","1","C",9,0],["RAJA AFIZUL HAFIZ BIN RAJA AZIZULAZAM","1","C",9,0],["ZAHARUDDIN BIN ZULKARAMI ","1","C",9,0],["AHMAD RAZIN BIN RASIDI","1","D",9,0],["HAFIY BIN ZAMRI ","1","D",9,0],["MUHAMMAD DZAKKIR ZUFAYRI BIN MOHD KHARI ","1","D",9,0],["ROSYEN BIN MOHAMMAD RIDZUAN GANESAN","1","D",9,0],["SHAHEER FAHIMY BIN SHAHARIZAN","1","D",9,0],["SYAHIR FARIS BIN SAHARUDIN","1","D",9,0],["BALQIS AZ ZAHRAA’ BINTI AHMAD SAG","1","A",2,1],["MUHAMMAD IKHWAN BIN ABDUL HALIM","1","A",2,1],["MUHAMMAD YUSUF DANIAL BIN ISLAHHUDDIN ","1","A",2,1],["NURUL SAFIY BATRISYIA BINTI MAT NAZER ","1","A",2,1],["ADAM HADZIQ BIN ADNAN","1","B",2,1],["FIRDAUS ADAM BIN SHAH RIZAN","1","B",2,1],["MUHAMMAD AMIRUL AMZAR BIN JEFRI ","1","B",2,1],["NUR ILHAM BATRISYIA BINTI ABD GHANI","1","B",2,1],["RANIA BATRISYIA BINTI RADZALEIGH @ GHAZALI","1","B",2,1],["ADAM IMAN BIN AMINUDDIN","1","C",2,1],["AIMI NABILAH BINTI JULASNARY","1","C",2,1],["DARWISH AMANI BIN SHAMSUL FARIZ ","1","C",2,1],["HANISAH AMANI BINTI MOHAMMAD NOOR SABIRIN","1","C",2,1],["MADIHAH HUSNA BINTI MOHAIR NIZAM ","1","C",2,1],["MADIHAH HUSNA BINTI MOHAIR NIZAM ","1","C",2,1],["MUHAMMAD HAFIZIE BIN ROSLAN ","1","C",2,1],["MUHAMMAD IQBAL DANISH BIN FAIROS AZMI ","1","C",2,1],["MUHAMMAD IRFAN BIN BASARUDIN","1","C",2,1],["NUR ATIQAH FATIHAH BINTI MOHAMAD ZAMRY ","1","C",2,1],["RAJA AFIZUL HAFIZ BIN RAJA AZIZULAZAN","1","C",2,1],["AHMAD RAZIN BIN RASIDI","1","D",2,1],["DANIA QAISARA BINTI MOHD RADZY","1","D",2,1],["HAFIY BIN ZAMRI ","1","D",2,1],["HASMAH BINTI SETIA","1","D",2,1],["MUHAMMAD FARISH HAQEEM BIN SYAIFUL NIEZAM","1","D",2,1],["MUZZAMMIL AMMAR BIN MUSTAFAR","1","D",2,1],["NUR SYAFIQAH SYADIYAH BINTI ISZHAM KHALID","1","D",2,1],["ROSYEN BIN MOHAMMAD RIDZUAN GANESAN","1","D",2,1],["SHAHEER FAHIMY BIN SHAHARIZAN","1","D",2,1],["SYAHIR FARIS BIN SAHARUDIN","1","D",2,1],["AHMAD FADHIL ZIKRIE BIN MOHD NORFADZLIE ","1","A",0,2],["AKMAL HAZIM BIN HAMIZUL FADZLY","1","A",0,2],["AYUSHAFIZA BINTI ZULKIFLY","1","A",0,2],["BALQIS AZ ZAHRAA’ ","1","A",0,2],["DARWISY MAHDI BIN NORHAZIZI","1","A",0,2],["MUHAMAD AZAMUDDIN BIN MOHD ZULFADHLI ","1","A",0,2],["MUHAMMAD ADAM BIN AHMAD TARMIZI","1","A",0,2],["MUHAMMAD AFEEF BIN MOHD TANAIN RIZANI","1","A",0,2],["MUHAMMAD AMMAR ARIF BIN MOHD HELMI","1","A",0,2],["MUHAMMAD DANIAL BIN BADRUL HISHAM ","1","A",0,2],["MUHAMMAD DANIAL IMAN BIN NOR FAIZAN","1","A",0,2],["MUHAMMAD FARID BIN AHMAD FUAD","1","A",0,2],["MUHAMMAD IKHWAN BIN ABDUL HALIM","1","A",0,2],["MUHAMMAD RAYYAN NAUFAL BIN MOHD RAIF","1","A",0,2],["MUHAMMAD SYUKRI IRFAN BIN SAIMIN ","1","A",0,2],["MUHAMMAD YUSUF DANIAL BIN ISLAHHUDDIN ","1","A",0,2],["MUSLIM BIN MOHAMAD FAKHRUL ANUAR","1","A",0,2],["NUR 'ARIIQAH 'ADAWIYYAH BINTI AHMAD ","1","A",0,2],["NURUL SAFIY BATRISYIA BINTI MAT NAZER ","1","A",0,2],["RAUDHAH BINTI KAMAL ","1","A",0,2],["SHAIKH DANIAL HUSAINI BIN SHAIKH HAMDAN ","1","A",0,2],["ADAM HADZIQ BIN ADNAN","1","B",0,2],["AFRIELL IZZAT BIN SUMANTRIE ","1","B",0,2],["ARIF HAKIMI BIN MOHD FAIZUL","1","B",0,2],["ARRIASHA QISTINA BINTI SHUHAIZAN ","1","B",0,2],["DANIYAL IRFAN AZANIZAM","1","B",0,2],["FIRDAUS ADAM BIN SHAH RIZAN","1","B",0,2],["HAZIM HADY BIN FAUZY NURJAYADY","1","B",0,2],["MOHAMAD ALI HAZIMI BIN MOHAMMAD AZMI","1","B",0,2],["MUHAMMAD ABRAR ABSYAR BIN MOHD HIZWAN ","1","B",0,2],["MUHAMMAD AMIR BIN ANWAR","1","B",0,2],["MUHAMMAD AMIRUL AMZAR BIN JEFRI ","1","B",0,2],["MUHAMMAD AMMAR HANIF BIN MUHAMMAD NAZRY","1","B",0,2],["MUHAMMAD AZIMAN AMIRUDDIN BIN OTHMAN","1","B",0,2],["MUHAMMAD FAYYADH BIN YUNOS","1","B",0,2],["MUHAMMAD JIEBREIL IEMAN BIN JALALUDIN","1","B",0,2],["NUR ILHAM BATRISYIA BINTI ABD GHANI","1","B",0,2],["NUR KHAIRAH DARWISYAH BINTI AZAM","1","B",0,2],["RANIA BATRISYIA BINTI RADZALEIGH @ GHAZALI","1","B",0,2],["SYED RAYYAN MIKHAEL BIN SYED ROSLI","1","B",0,2],["WAN MUHAMMAD 'AMMAR BIN WAN MOHD ZAMZAM","1","B",0,2],["ADAM IMAN BIN AMINUDDIN","1","C",0,2],["AFIQ HAZMI BIN MOHD ZAINY ","1","C",0,2],["AIMI NABILAH BINTI JULASNARY ","1","C",0,2],["AMIR ARMAN BIN AMIRUDDIN","1","C",0,2],["AMIRUL HAFIY BIN FADZLI ADNAN","1","C",0,2],["DARWISH AMANI BIN SHAMSUL FARIZ","1","C",0,2],["EUSOFF BIN AZMAN","1","C",0,2],["HAIMAN IRFAN BIN ZAHARYUDIN","1","C",0,2],["HANISAH AMANI BINTI MOHAMMAD NOOR SABIRIN","1","C",0,2],["MADIHAH HUSNA BINTI MOHAIR NIZAM","1","C",0,2],["MOHAMMAD IZRA RAIHAN BIN MOHAMMAD FAIZ","1","C",0,2],["MUHAMMAD ADAM BIN SAIFULIZAM","1","C",0,2],["MUHAMMAD HAFIZIE BIN ROSLAN ","1","C",0,2],["MUHAMMAD IQBAL DANISH BIN FAIROS AZMI ","1","C",0,2],["MUHAMMAD IRFAN BIN BASARUDIN","1","C",0,2],["MUHAMMAD IRFAN DANIAL BIN MOHD FAIZAL","1","C",0,2],["NUR ATIQAH FATIHAH BINTI MOHAMAD ZAMRY ","1","C",0,2],["RAJA AFIZUL HAFIZ BIN RAJA AZIZULAZAN","1","C",0,2],["ZAHARUDDIN BIN ZULKARAMI ","1","C",0,2],["AHMAD RAZIN BIN RASIDI","1","D",6,2],["DANIA QAISARA BINTI MOHD RADZY","1","D",6,2],["MUHAMMAD DZAKKIR ZUFAYRI BIN MOHD KHARI ","1","D",6,2],["SHAHEER FAHIMY BIN SHAHARIZAN","1","D",6,2],["SYADIYAH","1","D",6,2],["SYAHIR FARIS BIN SAHARUDIN","1","D",6,2],["MUHAMMAD ABRAR ABSYAR BIN MOHD HIZWAN","1","A",4,3],["NURUL SAFIY BATRISYIA BINTI MAT NAZER ","1","A",4,3],["ARRIASHA QISTINA BINTI SHUHAIZAN ","1","B",4,3],["DANIYAL IRFAN AZANIZAM ","1","B",4,3],["FIRDAUS ADAM BIN SHAH RIZAN","1","B",4,3],["HAZIM HADY BIN FAUZY NURJAYADY","1","B",4,3],["MUHAMMAD AMIR BIN ANWAR","1","B",4,3],["NUR KHAIRAH DARWISYAH BINTI AZAM","1","B",4,3],["AHMAD RAZIN BIN RASIDI","1","D",3,4],["SHAHEER FAHIMY BIN SHAHARIZAN","1","D",3,4],["MUHAMMAD AFEEF BIN MOHD TANAIN RIZANI","1","A",4,4],["SYED MUHAMMAD MU’MIN BIN SYED JALALUDDIN","2","A",4,4],["ARIF HAKIMI BIN MOHD FAIZUL","1","B",4,4],["NUR ILHAM BATRISYIA BINTI ABD GHANI","1","B",4,4],["AHMAD FARIS AMSYAR BIN SHOLAHUDIN ","2","C",4,4],["MUHAMMAD ADAM HAZIQ BIN ZAZALY","4","B",3,5],["AHMAD DZULFIKAR IRFAN BIN MOHD RIZAL","2","A",4,5],["DANISH HAIKAL BIN NORZARIMAN ","2","A",4,5],["FARIS ISKANDAR BIN MD YUSOF","2","A",4,5],["HARITH ADHAM BIN HASAMANIZAN","2","A",4,5],["MUHAMMAD FARRIST DANISH BIN ROZLAN ","2","A",4,5],["MUHAMMAD DANISH IMRAN BIN AZUAR HAFEZ ","3","A",4,5],["MUHAMMAD HASIF BIN MUHAMMAD NAIM","3","A",4,5],["AMIR YUSUF BIN AZIZAN","2","A",4,6],["HARIS MURSHIDI BIN ZAINUDDIN","2","A",4,6],["MUHAMMAD ADAM SHAFIQ BIN AZMI ","2","A",4,6],["MUHAMMAD NAJMI BIN ZUKIFLEI","2","A",4,6],["NURUL HANIS AUNI BINTI AHMAD SAINI","2","A",4,6],["AHMAD AZFAR SHAH BIN AHMAD SHUKRI SHAH","3","A",4,6],["AHMAD AZFAR SHAH BIN AHMAD SHURKI SHAH","3","A",4,6],["AIN ARISSA BINTI SABARUDDIN ","3","A",4,6],["AQILAH NUR QISTINA BT MD MAZLAN","3","A",4,6],["MUHAMMAD SYAHMI BIN KAMAL MUSA ","3","A",4,6],["NUR DAMIA DIYANAH BINTI YAZRO","3","A",4,6],["NURAMIRA FARHANA BINTI MOHD HELMI","3","A",4,6],["NUR 'ARIIQAH 'ADAWIYYAH BINTI AHMAD ","1","A",7,7],["AFRIELL IZZAT BIN SUMANTRIE ","1","B",7,7],["ARIF HAKIMI BIN MOHD FAIZUL","1","B",7,7],["ARRIASHA QISTINA BINTI SHUHAIZAN ","1","B",7,7],["DANIYAL IRFAN AZANIZAM","1","B",7,7],["FIRDAUS ADAM BIN SHAH RIZAN","1","B",7,7],["HAZIM HADY BIN FAUZY NURJAYADY","1","B",7,7],["MOHAMAD ALI HAZIMI BIN MOHAMAD AZMI","1","B",7,7],["MUHAMMAD ABRAR ABSYAR BIN MOHD HIZWAN","1","B",7,7],["MUHAMMAD AMIR BIN ANWAR","1","B",7,7],["MUHAMMAD AMIRUL AMZAR BIN JEFRI ","1","B",7,7],["MUHAMMAD JIEBREIL IEMAN BIN JALALUDIN","1","B",7,7],["NUR ILHAM BATRISYIA BINTI ABD GHANI","1","B",7,7],["WAN MUHAMMAD 'AMMAR BIN WAN MOHD ZAMZAM","1","B",7,7],["ADAM IMAN BIN AMINUDDIN","1","C",7,7],["AFIQ NURUDDIN BIN MOHD AMIR HAKIM","1","C",7,7],["DARWISH AMANI BIN SHAMSUL FARIZ ","1","C",7,7],["HANISAH AMANI BINTI MOHAMMAD NOOR SABIRIN","1","C",7,7],["MADIHAH HUSNA BINTI MOHAIR NIZAM ","1","C",7,7],["MUHAMMAD ADAM BIN SAIFULIZAM ","1","C",7,7],["MUHAMMAD HAFIZIE BIN ROSLAN ","1","C",7,7],["MUHAMMAD IQBAL DANISH BIN FAIROS AZMI ","1","C",7,7],["MUHAMMAD IRFAN BIN BASARUDIN","1","C",7,7],["NUR ATIQAH FATIHAH BINTI MOHAMAD ZAMRY ","1","C",7,7],["RAJA AFIZUL HAFIZ BIN RAJA AZIZULAZAN","1","C",7,7],["AHMAD RAZIN BIN RASIDI","1","D",7,7],["DANIA QAISARA BINTI MOHD RADZY","1","D",7,7],["MUHAMMAD AQIL ZAIM BIN MOHD SABRI","1","D",7,7],["MUHAMMAD FARISH HAQEEM BIN SYAIFUL NIEZAM","1","D",7,7],["NUR HANNAN AQILAH BINTI MUHAMMAD NAJIT ","1","D",7,7],["NUR SYAFIQAH SYADIYAH BINTI ISZHAM KHALID","1","D",7,7],["ROSYEN BIN MOHAMMAD RIDZUAN GANESAN","1","D",7,7],["SHAHEER FAHIMY BIN SHAHARIZAN","1","D",7,7],["SYAHIR FARIS BIN SAHARUDIN","1","D",7,7],["SYAZA CEMPAKA BINTI SHAMSOL KAMAR","1","D",7,7],["MUHAMMAD AZIMAN AMIRUDDIN BIN OTHMAN","1","B",7,8],["AIMI NABILAH BINTI JULASNARY","1","C",7,8],["AHMAD DZULFIKAR IRFAN BIN MOHD RIZAL","2","A",1,9],["AMIR YUSUF BIN AZIZAN","2","A",1,9],["AZREEN NUR IMAN BINTI NAZARUDDIN","2","A",1,9],["DANISH HAIKAL BIN NORZARIMAN ","2","A",1,9],["FARIS ISKANDAR BIN MD YUSOF","2","A",1,9],["HARIS MURSHIDI BIN ZAINUDDIN","2","A",1,9],["HARIS MURSHIDI BIN ZAINUDDIN","2","A",1,9],["HARITH ADHAM BIN HASAMANIZAN","2","A",1,9],["IMAN ASYRAF BIN ABU SEMAN","2","A",1,9],["MOHAMMAD AFIF SHAKIRIN BIN MOHD HAMIDI","2","A",1,9],["MUHAMMAD ADAM SHAFIQ BIN AZMI ","2","A",1,9],["MUHAMMAD ALFI BIN AZROY FADLI ","2","A",1,9],["MUHAMMAD AMIRUL HAKIMI BIN ABDUL AZIZ","2","A",1,9],["MUHAMMAD AZIEMI BIN ZAHRIL ","2","A",1,9],["MUHAMMAD FARRIST DANISH BIN ROZLAN ","2","A",1,9],["MUHAMMAD NAJMI BIN ZUKIFLEI","2","A",1,9],["NURUL HANIS AUNI BINTI AHMAD SAINI","2","A",1,9],["SYED MUHAMMAD MU’MIN BIN SYED JALALUDDIN","2","A",1,9],["AHMAD DANISH HAKIMI BIN AHMAD ZAINI ","3","B",1,9],["MUHAMMAD ADLYN MUHAIMIN BIN NORAZMEL","3","B",1,9],["MUHAMMAD ZAFRAN BIN KHAMIR","3","B",1,9],["KHAFID ADYAN BIN KHAIRIL","3","D",1,9],["NUR DAMIA AFIQAH BINTI MOHD NOR","3","D",1,9],["AHMAD SUFI BIN MOHAMAD ASERI","3","B",1,10],["ALHIRA BINTI MOHD DAHALAN","3","B",1,10],["IZZAT IRFAN BIN RONI ","3","B",1,10],["KU NUR ZULAIKHA BINTI KU MOHD ZAKIR","3","B",1,10],["MOHAMAD HAKIMI BIN MOHD HAMIZUL","3","B",1,10],["MUHAMMAD ALIF BIN MOHD AMINUDIN","3","B",1,10],["MUHAMMAD AQIL BIN SHAMSURY ","3","B",1,10],["MUHAMMAD DANISH IRFAN BIN ROSLI","3","B",1,10],["MUHAMMAD FIRDAUS FITRI BIN HAIZEAN ","3","B",1,10],["MUHAMMAD HAZIQ HAKIMI BIN MOHD HAIZDAR","3","B",1,10],["MUHAMMAD RAIS BIN MOHD SUPIAN","3","B",1,10],["NAZURA NAZARUDIN","3","B",1,10],["NUR ATHIRAH SYAFIQAH BINTI SAIDI ","3","B",1,10],["NUR QAISARA NABIHAH BINTI MOHD SAID PUTRA","3","B",1,10],["NURSYAZANA ANISA BINTI SALMI ","3","B",1,10],["TUAN HAZIQ DANIAL BIN TUAN RAZALI","3","B",1,10],["WAN NUR AMALIA HUSNA BINTI MOHD ANUAR ","3","B",1,10],["ADAM ZAKWAN BIN NORISHAM ","3","C",1,10],["AHMAD FARIS AMSYAR BIN SHOLAHUDIN W","3","C",1,10],["AIMI MUHAMMAD AZRI BIN MOHD FAIHAS ","3","C",1,10],["ALYA BATRISYIA ","3","C",1,10],["JARIS MIFZAL BIN AHMAD FAIRUS","3","C",1,10],["MARYAM SUMAYYAH BINTI MOHD HAFIZ","3","C",1,10],["MUHAMAD ADAM MUKHRISZAD SUHAIZAT","3","C",1,10],["MUHAMMAD AFNAN BIN MOHD JASMIN","3","C",1,10],["MUHAMMAD AMEN IMAN BIN NORHISHAM","3","C",1,10],["MUHAMMAD AMMAR HAZIQ BIN MOHD HARYZAL ","3","C",1,10],["MUHAMMAD ATHIR RAKIN BIN MUHD RUSHDI","3","C",1,10],["MUHAMMAD FAHRIN NAZMI BIN FAZIAN","3","C",1,10],["MUHAMMAD HAKIMI BIN FADZIL","3","C",1,10],["MUHAMMAD IRFAN ZULHUZNY BIN HAMDAN","3","C",1,10],["NOAH ALIF BIN HUZAIDI ","3","C",1,10],["NUR AAINI BINTI ZULFAKAR ","3","C",1,10],["NUR BALQIS QAISARA BINTI MOHD NOH","3","C",1,10],["NUR QISTINA NABILAH BINTI DZULQUARNAIN ","3","C",1,10],["QISTINA NAJWA BINTI FAIZAL ","3","C",1,10],["WAN AHMAD HILMAN ADLEE BIN WAN AHMAD SANUSI","3","C",1,10],["ADIF FIQRI BIN MOHAMAD BASRI","3","D",1,10],["AHMAD MUJAHID BIN SULAIMAN","3","D",1,10],["ALYA MAISARAH BINTI AB 4","3","D",1,10],["AQMAL DANISH BIN A.LAZIM","3","D",1,10],["MUHAMMAD ADAM ANIQ BIN MOHD AZMI","3","D",1,10],["MUHAMMAD AKID SALIHIN BIN SAIDI","3","D",1,10],["MUHAMMAD AMIR HARIS BIN ROSLAN","3","D",1,10],["MUHAMMAD DANISH HILMAN BIN MOHD REDZUAN","3","D",1,10],["MUHAMMAD FAKHRUL SHAH BIN JANIMANSAH","3","D",1,10],["MUHAMMAD HARIZ ZAQUAN BIN FAIZAL","3","D",1,10],["MUHAMMAD NAZIH BIN MAT LAZIM","3","D",1,10],["MUHAMMAD SYAHIRAN BIN AHMAD ULIA UZAD","3","D",1,10],["MUMTAZ ILMI ULYA BINTI MOHD AZAHARIN","3","D",1,10],["NUR ALYANA 'ADNEE BINTI ABDUL MALIB","3","D",1,10],["NUR SABRINA BINTI MOHAMAD AREF","3","D",1,10],["SARA JUITA BINTI MAHAMED","3","D",1,10],["SHAWN NAJMI BIN MAT BAKI","3","D",1,10],["WAN ALAUDDIN BIN WAN RAZAWA","3","D",1,10],["AHMAD AZFAR SHAH BIN AHMAD SHUKRI SHAH","3","A",8,10],["AIN ARISSA BINTI SABARUDDIN ","3","A",8,10],["AQILAH NUR QISTINA BT MD MAZLAN","3","A",8,10],["MUHAMMAD HASIF BIN MUHAMMAD NAIM","3","A",8,10]]};
+const R=D.r.map(x=>({n:x[0],s:x[1],k:x[2],l:x[3],c:x[4]}));
+const S={k:'',l:'',c:'',s:'',q:''};
+const $=i=>document.getElementById(i);
+const esc=t=>String(t).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const match=(r,skip)=>(skip=='k'||!S.k||r.k==S.k)&&(skip=='l'||S.l===''||r.l==S.l)&&(skip=='c'||S.c===''||r.c==S.c)&&(skip=='s'||!S.s||r.s==S.s)&&(skip=='q'||!S.q||r.n.toLowerCase().includes(S.q));
+function opts(el,key,all,labelFn,list,sorter){
+  const vals=[...new Set(R.filter(r=>match(r,key)).map(r=>r[key]))];
+  if(sorter)vals.sort(sorter);
+  if(S[key]!==''&&!vals.map(String).includes(String(S[key])))S[key]='';
+  el.innerHTML='<option value="">'+all+'</option>'+vals.map(v=>'<option value="'+v+'"'+(String(S[key])==String(v)?' selected':'')+'>'+esc(labelFn(v))+'</option>').join('');
+}
+function render(){
+  opts($('fl'),'l','Semua pensyarah',v=>D.l[v],null,(a,b)=>D.l[a].localeCompare(D.l[b]));
+  opts($('fc'),'c','Semua kursus',v=>D.c[v],null,(a,b)=>D.c[a].localeCompare(D.c[b]));
+  opts($('fs'),'s','Semua semester',v=>'Semester '+v,null,(a,b)=>a-b);
+  const rows=R.filter(r=>match(r));
+  charts(rows);
+  $('s1').textContent=rows.length;
+  $('s2').textContent=new Set(rows.map(r=>r.l)).size;
+  $('s3').textContent=new Set(rows.map(r=>r.c)).size;
+  $('cnt').textContent=rows.length+' rekod dipaparkan'+(S.k?' · Kelas '+S.k:'');
+  if(!rows.length){$('out').innerHTML='<div class="em">Tiada pelajar sepadan dengan penapis.</div>';return}
+  const byL={};
+  rows.forEach(r=>{((byL[r.l]=byL[r.l]||{})[r.c]=byL[r.l][r.c]||[]).push(r)});
+  let h='';
+  Object.keys(byL).sort((a,b)=>D.l[a].localeCompare(D.l[b])).forEach(l=>{
+    const cs=byL[l];const tot=Object.values(cs).reduce((a,x)=>a+x.length,0);
+    h+='<div class="lec"><div>'+esc(D.l[l])+'</div><span>'+Object.keys(cs).length+' kursus · '+tot+' pelajar</span></div>';
+    Object.keys(cs).sort((a,b)=>D.c[a].localeCompare(D.c[b])).forEach(c=>{
+      const list=cs[c].slice().sort((a,b)=>a.k.localeCompare(b.k)||a.n.localeCompare(b.n));
+      const p=D.c[c].split(' - ');
+      h+='<details open><summary><span><span class="cd">'+esc(p[0])+'</span> · '+esc(p.slice(1).join(' - '))+'</span><span class="pill">'+list.length+' pelajar</span></summary><div class="tb"><table><thead><tr><th>Bil</th><th>Nama Pelajar</th><th>Kelas</th><th>Sem</th></tr></thead><tbody>'+
+      list.map((r,i)=>'<tr><td>'+(i+1)+'</td><td>'+esc(r.n)+'</td><td>'+r.k+'</td><td>'+r.s+'</td></tr>').join('')+'</tbody></table></div></details>';
+    });
+  });
+  $('out').innerHTML=h;
+}
+const PAL=['#1d5fd1','#e07a1f','#2a9d6f','#b8338a','#7c5cd6','#c9a227','#16a3b8','#d64545','#6b7a8f','#5a9a2e'];
+const cnt=(rows,f)=>{const m={};rows.forEach(r=>{const k=f(r);m[k]=(m[k]||0)+1});return Object.entries(m).map(([n,v])=>({n,v}))};
+function donut(id,t,it){
+  const tot=it.reduce((a,x)=>a+x.v,0),C=2*Math.PI*40;let off=0,s='',lg='';
+  it.forEach((x,i)=>{const len=tot?x.v/tot*C:0,c=PAL[i%PAL.length];
+    s+='<circle cx="60" cy="60" r="40" fill="none" stroke="'+c+'" stroke-width="22" stroke-dasharray="'+len+' '+(C-len)+'" stroke-dashoffset="'+(-off)+'" transform="rotate(-90 60 60)"/>';off+=len;
+    lg+='<li><i style="background:'+c+'"></i>'+esc(x.n)+'<b>'+x.v+'</b><span>'+(tot?Math.round(x.v/tot*100):0)+'%</span></li>'});
+  $(id).innerHTML='<h3>'+t+'</h3><div class="dn"><svg viewBox="0 0 120 120" role="img" aria-label="'+t+'">'+s+'<text x="60" y="67" text-anchor="middle" class="ct">'+tot+'</text></svg><ul>'+lg+'</ul></div>';
+}
+function bars(id,t,it,c){
+  const mx=Math.max(1,...it.map(x=>x.v));
+  $(id).innerHTML='<h3>'+t+'</h3>'+it.map(x=>'<div class="br" title="'+esc(x.t||x.n)+'"><span class="bl">'+esc(x.n)+'</span><span class="bt"><span style="width:'+(x.v/mx*100)+'%;background:'+c+'"></span></span><b>'+x.v+'</b></div>').join('');
+}
+function charts(rows){
+  bars('c3','Pelajar mengikut pensyarah',cnt(rows,r=>D.l[r.l]).sort((a,b)=>b.v-a.v),PAL[0]);
+  bars('c4','Pelajar mengikut kursus (kod kursus)',cnt(rows,r=>D.c[r.c]).map(x=>({n:x.n.split(' - ')[0],t:x.n,v:x.v})).sort((a,b)=>b.v-a.v),PAL[1]);
+}
+$('fl').onchange=e=>{S.l=e.target.value;render()};
+$('fc').onchange=e=>{S.c=e.target.value;render()};
+$('fs').onchange=e=>{S.s=e.target.value;render()};
+$('bo').onclick=()=>document.querySelectorAll('details').forEach(d=>d.open=true);
+$('bc').onclick=()=>document.querySelectorAll('details').forEach(d=>d.open=false);
+$('bp').onclick=()=>window.print();
+$('bx').onclick=()=>{
+  const rows=R.filter(r=>match(r));
+  const csv='\ufeffKelas,Semester,Kod Kursus,Kursus,Pensyarah,Nama Pelajar\n'+rows.map(r=>{const p=D.c[r.c].split(' - ');return [r.k,r.s,p[0],p.slice(1).join(' - '),D.l[r.l],r.n].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')}).join('\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='senarai_pelajar.csv';a.click();
+};
+render();
+</script></body></html>
